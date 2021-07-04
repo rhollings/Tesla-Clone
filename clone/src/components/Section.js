@@ -3,10 +3,10 @@ import styled from "styled-components"
 import Fade from 'react-reveal/Fade';  // for fade effect
 
 
-function Section({title, description, leftBtnText, rightBtnText, backgroundImg }) { //calls in section pieces
+function Section({title, description, leftBtnText, rightBtnText, backgroundImg }) { 
     return (
         <Wrap bgImage={backgroundImg}>
-            <Fade bottom> // for the fade effect
+            <Fade bottom>
                 <ItemText>
                     <h1>{ title }</h1> 
                     <p>{ description }</p>
@@ -93,3 +93,8 @@ const DownArrow = styled.img`
 const Buttons = styled.div`
 
 `
+
+/*
+import section peices, use fade effect for text
+style with css
+*/
