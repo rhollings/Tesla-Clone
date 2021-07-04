@@ -3,10 +3,10 @@ import styled from "styled-components"
 import Fade from 'react-reveal/Fade';  // for fade effect
 
 
-function Section({title, description, leftBtnText, rightBtnText, backgroundImg }) {
+function Section({title, description, leftBtnText, rightBtnText, backgroundImg }) { //calls in section pieces
     return (
         <Wrap bgImage={backgroundImg}>
-            <Fade bottom>
+            <Fade bottom> // for the fade effect
                 <ItemText>
                     <h1>{ title }</h1> 
                     <p>{ description }</p>
