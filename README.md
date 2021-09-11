@@ -1,5 +1,7 @@
 # Tesla-Clone
-A clone of the Tesla website using React and deployed with Firebase
+A clone of the Tesla website using React Redux
+
+This page was deployed with Firebase 
 
 ======= https://tesla-clone-1e102.web.app/ ======= 
 
